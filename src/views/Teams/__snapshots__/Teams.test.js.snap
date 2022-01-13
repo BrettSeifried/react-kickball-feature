@@ -43,59 +43,9 @@ exports[`should render a list of teams 1`] = `
               View
             </button>
           </a>
-          <a
-            href="/teams/2/edit"
-          >
-            <button
-              class="btn-edit"
-              type="button"
-            >
-              Edit
-            </button>
-          </a>
-          <button
-            class="btn-delete"
-            type="button"
-          >
-            Delete
-          </button>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <a
-            href="/teams/7"
-          >
-            Goodlanders
-          </a>
-        </td>
-        <td>
-          <a
-            href="/teams/7"
-          >
-            <button
-              class="btn-view"
-              type="button"
-            >
-              View
-            </button>
-          </a>
-          <a
-            href="/teams/7/edit"
-          >
-            <button
-              class="btn-edit"
-              type="button"
-            >
-              Edit
-            </button>
-          </a>
-          <button
-            class="btn-delete"
-            type="button"
-          >
-            Delete
-          </button>
+          <div
+            class="resource-table"
+          />
         </td>
       </tr>
       <tr>
@@ -103,7 +53,7 @@ exports[`should render a list of teams 1`] = `
           <a
             href="/teams/3"
           >
-            Lakeville Thunderfeet
+            Lakeville Thuderfeet
           </a>
         </td>
         <td>
@@ -117,22 +67,9 @@ exports[`should render a list of teams 1`] = `
               View
             </button>
           </a>
-          <a
-            href="/teams/3/edit"
-          >
-            <button
-              class="btn-edit"
-              type="button"
-            >
-              Edit
-            </button>
-          </a>
-          <button
-            class="btn-delete"
-            type="button"
-          >
-            Delete
-          </button>
+          <div
+            class="resource-table"
+          />
         </td>
       </tr>
       <tr>
@@ -154,22 +91,33 @@ exports[`should render a list of teams 1`] = `
               View
             </button>
           </a>
+          <div
+            class="resource-table"
+          />
+        </td>
+      </tr>
+      <tr>
+        <td>
           <a
-            href="/teams/4/edit"
+            href="/teams/5"
+          >
+            Ridgefield Spudders
+          </a>
+        </td>
+        <td>
+          <a
+            href="/teams/5"
           >
             <button
-              class="btn-edit"
+              class="btn-view"
               type="button"
             >
-              Edit
+              View
             </button>
           </a>
-          <button
-            class="btn-delete"
-            type="button"
-          >
-            Delete
-          </button>
+          <div
+            class="resource-table"
+          />
         </td>
       </tr>
       <tr>
@@ -191,96 +139,9 @@ exports[`should render a list of teams 1`] = `
               View
             </button>
           </a>
-          <a
-            href="/teams/1/edit"
-          >
-            <button
-              class="btn-edit"
-              type="button"
-            >
-              Edit
-            </button>
-          </a>
-          <button
-            class="btn-delete"
-            type="button"
-          >
-            Delete
-          </button>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <a
-            href="/teams/5"
-          >
-            Stumptown Lumberjacks
-          </a>
-        </td>
-        <td>
-          <a
-            href="/teams/5"
-          >
-            <button
-              class="btn-view"
-              type="button"
-            >
-              View
-            </button>
-          </a>
-          <a
-            href="/teams/5/edit"
-          >
-            <button
-              class="btn-edit"
-              type="button"
-            >
-              Edit
-            </button>
-          </a>
-          <button
-            class="btn-delete"
-            type="button"
-          >
-            Delete
-          </button>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <a
-            href="/teams/6"
-          >
-            Vancougars
-          </a>
-        </td>
-        <td>
-          <a
-            href="/teams/6"
-          >
-            <button
-              class="btn-view"
-              type="button"
-            >
-              View
-            </button>
-          </a>
-          <a
-            href="/teams/6/edit"
-          >
-            <button
-              class="btn-edit"
-              type="button"
-            >
-              Edit
-            </button>
-          </a>
-          <button
-            class="btn-delete"
-            type="button"
-          >
-            Delete
-          </button>
+          <div
+            class="resource-table"
+          />
         </td>
       </tr>
     </tbody>
